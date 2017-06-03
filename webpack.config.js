@@ -10,7 +10,7 @@ let BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 module.exports = {
     entry: path.resolve(APP_PATH, 'index.jsx'),
     output: {
-        filename: 'bundle_[hash].js',
+        filename: 'bundle_[hash:5].js',
         path: BUILD_PATH
     },
     //开启dev source map
@@ -49,7 +49,7 @@ module.exports = {
             inject: 'body'
         }),
         new ExtractTextPlugin({
-            filename: 'index_[hash].css',
+            filename: 'index_[hash:5].css',
             disable: false,
             allChunks: true,
         })
