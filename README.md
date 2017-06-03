@@ -1,1 +1,1 @@
-# react-flux-demo
+# react-demo
