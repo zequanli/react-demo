@@ -1,7 +1,7 @@
 {
-  "name": "react-demo",
+  "name": "react-flux-demo",
   "version": "1.0.0",
-  "description": "A react-demo",
+  "description": "A react-flux-demo",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zequanli/react-demo.git"
+    "url": "git+https://github.com/zequanli/react-flux-demo.git"
   },
   "author": "zequanli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zequanli/react-demo/issues"
+    "url": "https://github.com/zequanli/react-flux-demo/issues"
   },
-  "homepage": "https://github.com/zequanli/react-demo#readme",
+  "homepage": "https://github.com/zequanli/react-flux-demo#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
